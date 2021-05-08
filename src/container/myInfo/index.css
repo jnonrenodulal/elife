@@ -1,0 +1,714 @@
+#myCourse{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+#myCourse .headerNav > a{
+    width: 20%;
+}
+
+#myCourse>section{
+    margin-top: 0.15rem;
+}
+
+/* ***  我的 **** */
+#user .headBox{
+    width: 100%;
+    height: 1.3rem;
+    background-image:-webkit-linear-gradient(to right, #f7efd2, #f7e2d2);
+    background-image:linear-gradient(to right, #f7efd2, #f7e2d2);
+    border-bottom: 10px #f0f0f0 solid;
+    padding-top: 0.4rem;
+}
+
+#user .headBox>div{
+    height: 0.8rem;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#user .headBox>div>.userName{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    color: #323232;
+    font-size: 14px;
+    text-align: center;
+    left: 50%;
+    top: 0.52rem;
+    margin-left: -50%;
+}
+
+#user .headBox>div>.certified{
+    position: absolute;
+    display: inline-block;
+    color: #646464;
+    font-size: 0.09rem;
+    width: 0.45rem;
+    left: 50%;
+    top: 0.73rem;
+    margin-left: -0.325rem;
+    border-radius: 8px;
+    background: rgba(247, 247, 247, 0.7);
+    padding: 0 0.1rem;
+    text-align: right;
+}
+
+#user .headBox>div>.certified:before{
+    content: ' ';
+    display: block;
+    width: 0.15rem;
+    height: 0.15rem;
+    background: url('../../img/userInfo/total.png') no-repeat -1.45rem -0.01rem;
+    background-size: 1500%;
+    position: absolute;
+    left: 0.08rem;
+}
+
+
+#user .headBox img{
+    position: absolute;
+    width: 0.46rem;
+    height: 0.46rem;
+    border-radius: 100%;
+    border: 2px #fff solid;
+    left: 50%;
+    top: 0;
+    margin-left: -0.23rem;
+}
+
+#user .headBox>.setBtn{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    left: 0.1rem;
+    top: 0.1rem;
+    background: url('../../img/userInfo/total.png') no-repeat  -2.09rem 0.1rem;
+    background-size: 600%;
+}
+
+#user li{
+    font-size: 15px;
+    color: #646464;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    padding: 0 0.11rem 0 0.15rem;
+    text-align: left;
+    position: relative;
+}
+
+
+#user li:first-child, #user li:last-child{
+    border-bottom: 1px #f0f0f0 solid;
+}
+
+
+#user li.menu, #user li:nth-child(6){
+    border-bottom: 10px #f0f0f0 solid;
+}
+
+
+#user li span{
+    float: right;
+    padding-right: 0.2rem;
+    color: #949494;
+    font-size: 14px;
+}
+
+#user li i{
+    display: inline-block;
+    position: absolute;
+    width: 0.2rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    right: 0.1rem;
+    top: 50%;
+    margin-top: -0.1rem;
+    font-style: normal;
+    background: url('../../img/userInfo/total.png') no-repeat -1.55rem 0.01rem;
+    background-size: 1000%;
+}
+
+#user li.menu{
+    display: flex;
+    height: 0.52rem;
+    line-height: 0.52rem;
+}
+
+#user li.menu p{
+    flex: 0.25;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 0;
+}
+
+#user li.menu p:active{
+    background: #f2f2f2;
+}
+
+#user li.menu p>span{
+    display: block;
+    font-size: 12px;
+    width: 0.6rem;
+    color: #323232;
+    padding: 0;
+    float: none;
+    position: absolute;
+    top: 0.13rem;
+    left: 50%;
+    margin-left: -0.3rem;
+}
+
+#user li.menu p:before{
+    content: ' ';
+    display: block;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 0.06rem;
+    left: 50%;
+    margin-left: -0.125rem;
+}
+
+#user li.menu p.oreder0:before{
+    background: url('../../img/userInfo/total.png') no-repeat 0.021rem 0;
+    background-size: 850%
+}
+#user li.menu p.oreder1:before{
+    background: url('../../img/userInfo/total.png') no-repeat -1rem 0;
+    background-size: 850%
+}
+#user li.menu p.oreder2:before{
+    background: url('../../img/userInfo/total.png') no-repeat -0.65rem 0;
+    background-size: 850%
+}
+#user li.menu p.oreder3:before{
+    background: url('../../img/userInfo/total.png') no-repeat -0.3rem 0;
+    background-size: 850%
+}
+
+#user li.title:active{
+    background: #f2f2f2;
+}
+
+#user .weui-popup ul{
+    margin-top: 0.4rem;
+}
+
+#user .weui-popup ul>li:nth-child(2){
+    border-bottom: 1px #f0f0f0 solid;
+}
+
+#user .weui-popup ul a{
+    color: #646464;
+    width: 100%;
+    display: -webkit-box;
+    text-decoration:none;
+}
+
+#user .feedInfo {
+    margin-top: 0.4rem;
+}
+
+#user .feedInfo h3{
+    text-align: left;
+    font-size: 16px;
+    color: #646464;
+    font-weight: normal;
+    padding: 12px 0.15rem;
+    border-bottom: 1px solid #d9d9d9;
+}
+#user .feedInfo h3+div{
+    margin-top: 0.15rem;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 0 0.15rem;
+}
+
+#user .feedInfo button{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0;
+}
+
+#user .weui-uploader__hd{
+    padding: 12px 0.15rem;
+}
+
+#user .weui-uploader__input-box{
+    width: 0.6rem;
+    height: 0.6rem;
+    margin: 0 0.15rem;
+}
+
+#user .weui-uploader__files{
+    overflow: hidden;
+    margin: 0!important;
+    padding: 0 0.15rem;
+    width: 2.9rem;
+}
+
+#user .weui-uploader__files li{
+    width: 0.7rem;
+    height: 0.7rem;
+    margin: 0 0.2rem 0.1rem 0;
+    background-size: 100%;
+    background: no-repeat;
+    padding: 0;
+}
+
+
+
+
+    /**** #userInfo   设置个人信息  ****/
+#userInfo{
+    position: fixed;
+    top: 0.4rem;
+}
+
+#userInfo ul{
+
+}
+
+#userInfo li{
+    width: 2.84rem;
+    padding: 0 0.18rem;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    font-size: 15px;
+    color: #323232;
+    border-bottom: 1px #f0f0f0 solid;
+}
+
+#userInfo li>label{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#userInfo li:active{
+    background: #f2f2f2;
+}
+
+#userInfo li:nth-child(6){
+    border-bottom: 10px #f0f0f0 solid;
+}
+
+#userInfo li .first{
+    float: left;
+}
+
+#userInfo li .first>img{
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 100%;
+    border: 2px #fff solid;
+    position: absolute;
+}
+
+#userInfo li .last{
+    float: right;
+    padding-right: 0.2rem;
+    position: relative;
+    font-size: 13px;
+    color: #909090;
+    text-align: right;
+    width: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#userInfo li .last:after{
+    content: ' ';
+    display: block;
+    width: 0.2rem;
+    height: 0.2rem;
+    position: absolute;
+    right: -0.05rem;
+    top: 0.11rem;
+    background: url('../../img/userInfo/total.png') no-repeat  -1.3rem 0.02rem;
+    background-size: 850%
+}
+
+#userInfo li .last.phone:after{
+    background: none;
+}
+
+#userInfo li .last>img{
+    width: 0.17rem;
+    height: 0.17rem;
+    margin-top: 0.11rem;
+}
+
+
+#userInfo button.weui-btn, input.weui-btn{
+    position: fixed;
+    bottom: 0;
+    border-radius: 0;
+}
+
+
+#userInfo .qrcodeBox>img{
+    width: 55%;
+    margin-top: 2rem;
+    height: auto;
+}
+
+
+#userInfo li:first-child{
+
+}
+
+
+#userInfo input{
+    background: none;
+}
+
+.userImg img{
+    display: block;
+    position: absolute;
+    width: 0.46rem;
+    height: 0.46rem;
+    border-radius: 100%;
+    left: 50%;
+    top: 1rem;
+    margin-left: -0.23rem;
+}
+.userImg>.userName{
+    position: relative;
+    top: 1.5rem;
+    text-align: center;
+}
+
+
+/**** #myGift  个人礼包中心  ****/
+#myGift{
+    padding-top: 0.4rem;
+    position: fixed;
+    bottom: 0;
+    overflow: scroll;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#myGift>.list{
+    width: 100%;
+    border-top: 1px #e5e5e5 solid;
+    margin-top: 0.4rem;
+}
+
+#myGift>.list>.itemGift{
+    float: left;
+    width: 1.59rem;
+    height: 1.59rem;
+    position: relative;
+}
+#myGift>.list>.itemGift{
+    margin: 0 auto;
+}
+#myGift>.list>.itemGift:nth-child(odd){
+    border: 1px #e5e5e5 solid;
+    border-top: none;
+}
+
+#myGift>.list>.itemGift:nth-child(even){
+    border-bottom: 1px  #e5e5e5  solid;
+}
+
+#myGift>.list>.itemGift>img{
+    width: 0.84rem;
+    height: 0.63rem;
+    background: #ddbb52;
+    border-radius: 3px;
+    margin: 0.3rem 0 0.135rem 0.35rem ;
+    vertical-align: middle
+}
+
+#myGift>.list>.itemGift>.status{
+    position: absolute;
+    top: 0.09rem;
+    left: 0.08rem;
+    font-size: 12px;
+    color: #b9984f;
+}
+#myGift>.list>.itemGift>.status.status-1{
+    color: #909090;
+}
+#myGift>.list>.itemGift>.status.status-2{
+    color: #dc7f7f;
+}
+
+#myGift>.list>.itemGift>div{
+    width: 90%;
+    padding: 0 0.08rem;
+    text-align: left;
+    float: left;
+}
+
+#myGift>.list>.itemGift .giftName{
+    display: block;
+    color: #323232;
+    font-size: 16px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#myGift>.list>.itemGift .time{
+    display: block;
+    color: #909090;
+    font-size: 12px;
+}
+
+#myGift .actDetail>.back{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url("../../img/back-white.svg") no-repeat 50%;
+    background-size: 60%;
+    position: absolute;
+}
+
+
+
+/**** #myAddress  地址管理  ****/
+#myAddress{
+    padding-top: 0.4rem;
+    color: #323232;
+}
+
+#myAddress ul{
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    height: 4.93rem;
+    width: 100%;
+}
+
+
+#myAddress li{
+    border-bottom: 8px #f0f0f0 solid;
+    text-align: left;
+}
+
+#myAddress li>p{
+    padding: 0.1rem 0.15rem;
+    font-size: 14px;
+}
+
+#myAddress .receiverName{
+    font-size: 16px;
+    padding-bottom: 0;
+}
+
+#myAddress .receiverName>span:first-child{
+    padding-right: 0.3rem;
+}
+
+#myAddress .receiverAddress{
+    color: #909090;
+    border-bottom: 1px #ebebeb solid;
+}
+
+#myAddress .edit{
+    position: relative;
+    height: 0.18rem;
+}
+
+#myAddress .edit>span{
+    position: absolute;
+}
+
+#myAddress .edit>span:before{
+    display: block;
+    position: absolute;
+    width: 0.2rem;
+    height: 0.2rem;
+    content: ' ';
+    left: -0.22rem;
+    top: 0;
+}
+
+#myAddress .edit>span:first-child{
+    left: 0.35rem;
+}
+
+#myAddress .edit>.default{
+    color: #B9984F;
+}
+#myAddress .edit>.default:before{
+    background: url("../../img/userInfo/choose.png") no-repeat;
+    background-size: 80%;
+}
+
+#myAddress .edit>.unDefault{
+    color: #ACACAC;
+}
+#myAddress .edit>.unDefault:before{
+    background: url("../../img/userInfo/unChoose.png") no-repeat;
+    background-size: 80%;
+}
+
+#myAddress .edit>.editAddress{
+    right: 1rem;
+}
+#myAddress .edit>.editAddress:before{
+    background: url("../../img/userInfo/edit.svg") no-repeat;
+    background-size: 80%;
+}
+
+#myAddress .edit>.deleteAddress{
+    right: 0.25rem;
+}
+#myAddress .edit>.deleteAddress:before{
+    background: url("../../img/userInfo/delete.svg") no-repeat;
+    background-size: 80%;
+}
+
+#myAddress button{
+    position: fixed;
+    bottom: 0;
+    border-radius: 0;
+}
+
+
+#myAddress .weui-popup ul{
+    padding: 0 0.15rem;
+    margin-top: 0.4rem;
+}
+#myAddress .weui-popup li{
+    border-bottom: 1px #f0f0f0 solid;
+    line-height: 0.5rem;
+}
+
+#myAddress .weui-popup li input{
+    color: #323232;
+}
+
+#myAddress .weui-popup  textarea{
+    padding: 0.1rem 0 0 0;
+    color: #323232;
+}
+
+
+
+/**** #collect 我的收藏  ****/
+#collect .collectionList{
+    height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+#collect .tab{
+    margin-top: 0.4rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 10px #f5f5f5 solid;
+}
+
+#collect .tab>div{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+#collect .tab a{
+    font-size: 15px;
+    display: inline-block;
+    flex: 0.5;
+}
+#collect .tab a.active{
+    color: #b9984f;
+}
+
+#collect .none {
+    width: 1.5rem;
+    margin: 0.5rem auto 0 auto;
+    text-align: center;
+}
+#myGift .none{
+    width: 1.5rem;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+}
+#collect .none>i {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.25rem;
+    background: url("../../img/userInfo/order.png") no-repeat;
+    background-size: 100%;
+}
+#collect .none>h3,#myGift .none>h3{
+    font-size: 16px;
+    text-align: center;
+    color: #323232;
+    font-weight: normal;
+}
+#collect .none>a,#myGift .none>a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #b9984f;
+    border-bottom: none;
+    margin: 0.03rem 0 0.04rem 0;
+    display: inline-block;
+}
+
+
+#collect .collectionList>.collectItem{
+    padding: 0.1rem 0.15rem ;
+    overflow: hidden;
+    border-bottom: 1px #f0f0f0 solid;
+}
+
+#collect .collectionList>.collectItem>img{
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.1rem;
+    margin-top: 0.03rem;
+}
+
+#collect .collectionList>.collectItem>div{
+    float: left;
+    height: 0.5rem;
+    text-align: left;
+    color: #323223;
+    font-size: 14px;
+}
+#collect .collectionList>.collectItem>div>p:first-child{
+    width: 2.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.weui-picker__item {
+    padding: 2px 0 4px;
+}
+#myGift .none>i {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.25rem;
+    background: url("../../img/userInfo/noOrder.png") no-repeat;
+    background-size: 100%;
+}
+#select .weui-media-box__desc:last-child.router{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

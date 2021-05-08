@@ -1,0 +1,53 @@
+.itemHonourable{
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.12rem;
+}
+
+.nonHaven{
+    font-size: 0.12rem;
+    display: inline-block;
+    line-height: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #909090;
+}
+
+.isHaven{
+    line-height: 0.5rem;
+    font-size: 0.12rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #3cf139;
+}
+
+.HonourableItemView {
+    margin-left: 0.0rem;
+    margin-right: 0.0rem;
+}
+
+.itemTitleNames span{
+    display: block;
+    text-align: center;
+    margin: -0.08rem;
+}
+
+.cardTitle {
+    font-size: 0.16rem;
+    margin-top: -0.3rem;
+    color: #caaa3c;
+}
+
+.cardSubtitle {
+    font-size: 0.14rem;
+    margin-top: -0.5rem;
+    color: #caaa3c;
+}
+
+.cardPrice {
+    color: #8B8B8B;
+    font-size: 0.1rem;
+    margin-top: -0.5rem;
+}
+

@@ -1,0 +1,446 @@
+.first>.weui-loadmore{
+    line-height: 3.5rem;
+    font-size: 16px;
+}
+
+.first>.weui-loadmore>.weui-loading{
+    width: 22px;
+    height: 22px;
+}
+
+.itemBox .weui-loadmore_line{
+    margin-top: 0.2rem;
+}
+
+.weui-popup{
+    background: #fafafa;
+}
+
+.weui-textarea ,.weui-input{
+    margin-top: 0.1rem;
+    color: #909090;
+    opacity: 0.8;
+    font-size: 15px;
+    background: #fafafa;
+}
+.weui-btn_primary{
+    background: #b9984f;
+}
+.weui-btn_primary:not(.weui-btn_disabled):active{
+    background: #a5845b;
+}
+
+/**** 活动popup *****/
+::-webkit-input-placeholder{
+    color: #909090;
+    opacity: 0.8;
+}
+
+.initiateInfo{
+    margin: auto;
+    width: 85%;
+}
+
+.initiateInfo>.actInfoItem{
+    border-bottom: 1px #f0f0f0 solid;
+    height: 0.8rem;
+    margin-bottom: 0.1rem;
+    position: relative;
+}
+
+.initiateInfo>.textArea{
+    height: 1rem;
+}
+
+.initiateInfo>.actInfoItem:first-child{
+    margin-top: 0.2rem;
+}
+
+.initiateInfo>.actInfoItem>h4{
+    font-weight: normal;
+    text-align: left;
+    font-size: 18px;
+}
+
+.initiateInfo .weui-textarea-counter{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+}
+
+.initiateInfo>button.weui-btn{
+    width: 88%;
+    position: fixed;
+    bottom: 0.2rem;
+    left: 50%;
+    margin-left: -44%;
+}
+
+
+
+/**** 活动头部 *****/
+.headerBox{
+    height: 0.4rem;
+}
+.headerBox >.left, .headerBox >.right{
+    display: inline-block;
+    height: 100%;
+    line-height: 0.4rem;
+    position: relative;
+}
+
+.headerBox>.left{
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
+.headerBox>.left>img{
+    width: 25px;
+    margin: 0.1rem 0 0 0.15rem;
+}
+
+.headerBox>.right{
+    font-size: 18px;
+    width: 20%;
+    float: right;
+}
+
+/*.headerBox >.right>img{*/
+    /*width: 20px;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 50%;*/
+    /*margin-top: -12px;*/
+/*}*/
+
+
+/**** 活动列表 *****/
+.itemBox{
+    width: 100%;
+    overflow-x: hidden;
+    /*overflow-y: scroll;*/
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: 0.4rem;
+    bottom: 0.46rem;
+}
+
+.list{
+    width: 100%;
+}
+
+.weui-loadmore_line .weui-loadmore__tips{
+    background: #fafafa;
+}
+
+.infoItem {
+    width: 100%;
+    min-height: 1.17rem;
+    position: relative;
+    margin-bottom: 1px;
+    border-bottom: 1px #f5f5f5 solid;
+}
+
+.infoItem>.top{
+    overflow: hidden;
+    padding: 0 0.11rem;
+}
+
+.infoItem a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+}
+
+.infoItem img{
+    width: 0.85rem;
+    height: 0.85rem;
+    float: left;
+    background: #d7d7d7;
+    margin: 0.16rem 0 0 0;
+}
+
+.infoItem .tit-content{
+    width: 1.97rem;
+    height: 0.85rem;
+    float: left;
+    margin: 0.16rem 0 0 0.16rem;
+    text-align: left;
+    position: relative;
+}
+
+.infoItem h3{
+    width: 100%;
+    color: #323232;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+.infoItem .deTile{
+    width: 100%;
+    color: #909090;
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    /*line-height: 0.14rem;*/
+}
+
+.infoItem .time{
+    font-size: 14px;
+    color: #909090;
+    line-height: 25px;
+    letter-spacing: -1px;
+}
+.infoItem .time>span{
+    color: #323232;
+}
+
+.infoItem .price{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    color: #646464;
+}
+
+.infoItem .price>span:first-child{
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.infoItem .price>.vip{
+    border: 1px #b9984f solid;
+    color: #b9984f;
+    border-radius: 4px;
+    float: right;
+    font-size: 11px;
+    padding: 2px 6px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    letter-spacing: 0;
+}
+
+
+
+/**** 活动详情 *****/
+#selectDetail.actDetail .head>div{
+    border-bottom: none;
+}
+
+#selectDetail.actDetail .head .weui-panel__hd{
+    width: 90% !important;
+    padding: 0.05rem 0.15rem 0.1rem 0.15rem !important;
+}
+
+#selectDetail.actDetail .weui-panel__hd:last-child{
+    padding: 0 !important;
+}
+
+#selectDetail.actDetail .act{
+    display: inline-block;
+    color: #fff;
+    background: #b9984f;
+    font-size: 12px;
+    padding: 4px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+#selectDetail.actDetail ul>li{
+    display: flex;
+    padding: 14px 0.075rem 12px;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    border-bottom: 1px rgba(229,229,229,0.6) solid;
+    font-size: 14px;
+    position: relative;
+}
+
+#selectDetail.actDetail ul>li>i{
+    flex: 0.12;
+}
+#selectDetail.actDetail ul>li>.text{
+    flex: 0.23;
+    text-align: left;
+    color: #323232;
+}
+#selectDetail.actDetail ul>li>.value{
+    flex: 0.7;
+    text-align: right;
+    color: #999;
+    /*overflow: hidden;*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#selectDetail.actDetail ul>li>.more{
+    flex: 0.08;
+    text-align: right;
+    background: url("../../img/more.svg") no-repeat 50% 50%;
+    background-size: 60%;
+}
+
+#selectDetail.actDetail ul>li>i.one{
+    background: url("../../img/detail/time.png") no-repeat 50% 35%;
+    background-size: 35%;
+}
+#selectDetail.actDetail ul>li>i.two{
+    background: url("../../img/detail/address.png") no-repeat 50% 35%;
+    background-size: 35%;
+}
+#selectDetail.actDetail ul>li>i.three{
+    background: url("../../img/detail/price.png") no-repeat 50% 35%;
+    background-size: 35%;
+}
+#selectDetail.actDetail ul>li>i.four{
+    background: url("../../img/detail/vedio.png") no-repeat 50% 35%;
+    background-size: 35%;
+}
+
+#buy.default{
+    background: #9c9c9c;
+}
+
+.weui-popup .info{
+    margin-top: 0.4rem;
+    overflow-x: hidden;
+}
+
+.weui-popup .info input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 0.1rem;
+    color: #909090;
+    background: none;
+}
+
+.weui-popup .info>.actHead{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.1rem 0.15rem;
+    height: 0.96rem;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.weui-popup .info>.actHead>img{
+    width: 0.76rem;
+    height: 0.76rem;
+    float: left;
+}
+
+.weui-popup .info>.actHead >div{
+    float: left;
+    width: 1.99rem;
+    padding-left: 0.15rem;
+}
+
+.weui-popup .info>.actHead >div>p{
+    float: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    margin-top: 0.13rem;
+    color: #909090;
+    width: 100%;
+    text-align: left;
+    padding-left: 0.14rem;
+}
+
+.weui-popup .info>.actHead >div>p:before{
+    content: ' ';
+    display: block;
+    width: 0.1rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.weui-popup .info>.actHead >div>.address:before{
+    background: url("../../img/act/address.png") no-repeat 0 3px;
+    background-size: 100%;
+}
+
+.weui-popup .info>.actHead >div>.time:before{
+    background: url("../../img/act/time.png")  no-repeat 0 3px;
+    background-size: 100%;
+}
+
+.weui-popup .info>.infoBox{
+    font-size: 16px;
+    color: #323232;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: left;
+    padding: 0.1rem 0.15rem;
+    border-bottom: 10px #f0f0f0 solid;
+}
+
+.weui-popup .info>.infoBox li{
+    text-align: left;
+    line-height: 0.32rem;
+    border-bottom: none !important;
+}
+
+.weui-popup .info>.infoBox li>span{
+    padding-left: 0.1rem;
+    color: #b9984f;
+}
+
+.weui-popup .info>.jobNum{
+    height: 0.7rem;
+    border-bottom: 10px #f0f0f0 solid;
+}
+
+.weui-popup .info>.jobNum input{
+    width: 2.9rem;
+    padding: 0;
+    margin: 0 0.15rem;
+    height: 0.3rem;
+    border-bottom: 1px #f0f0f0 solid;
+}
+
+.weui-popup  h3 {
+    text-align: left;
+    color: #323232;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0.03rem 0 0.01rem 0;
+    padding-left: 0.15rem;
+}
+
+.weui-popup  textarea{
+    border: none;
+    width: 2.8rem;
+    height: 1rem;
+    background: #fafafa;
+    padding: 0.05rem 0.15rem;
+    outline: none;
+    font-size: 14px;
+    color: #909090;
+    line-height: 0.17rem;
+}
+
+
+
+

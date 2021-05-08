@@ -1,0 +1,51 @@
+*{
+    font-family: '微软雅黑';
+}
+.authority{
+    border-bottom:1px solid #ddd;
+    margin-bottom:0.3rem;
+}
+.authorityImg{
+    width:100%;
+    height:2rem;
+}
+.authorityContent{
+    overflow: hidden;
+}
+.left{
+    margin-left:15px;
+    padding:0.15rem  0;
+    overflow: hidden;
+}
+.left>div{
+    width:100%;
+    float:left;
+    height: 0.25rem;
+    line-height: 0.25rem;
+}
+.left>div:nth-child(1){
+    font-weight: bold;
+    font-size: 0.14rem;
+    color: #1F1F1F;
+}
+.left>div:nth-child(2){
+    width: 70% !important;
+    color:#020202;
+    font-size: 0.11rem !important;
+}
+.left>div:nth-child(3){
+    width: 30% !important;
+    font-weight: bold;
+}
+.left>div:nth-child(3) span{
+    color:#D6BE6C;
+    border:2px solid #D6BE6C;
+    border-radius:5px;
+    text-align: center;
+    padding:5px;
+    font-size: 0.12rem;
+}
+.left>div:nth-child(4){
+    color:#767676;
+    font-size: 0.1rem;
+}

@@ -1,0 +1,327 @@
+/***  评论 列表 模块 ***/
+#comments{
+    width: 100%;
+    border-top: 1px #f1f1f1 solid;
+    position: fixed;
+    top :0.4rem;
+    bottom: 0.36rem;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.totalNum{
+    color: #a0a0a0;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+#comments .singleCmt{
+    width: 2.93rem;
+    overflow: hidden;
+    padding: 0.17rem 0.135rem 0.16rem;
+    border-bottom: 1px #ebebeb solid;
+}
+
+#comments .singleCmt>div{
+    float: left;
+}
+
+
+#comments .cmtContent>.reply{
+    background: #f0f0f0;
+    color: #323232;
+    border-radius: 4px;
+    font-size: 13px;
+    position: relative;
+    margin: 0.12rem 0 0 0 ;
+    width: 92%;
+    padding: 0.1rem 4%;
+}
+
+#comments .cmtContent>.reply>i{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #f0f0f0;
+    position: absolute;
+    left: 17px;
+    top: -6px;
+}
+
+#comments .cmtContent>.reply>li{
+    padding: 0 5px;
+}
+
+#comments .cmtContent>.reply>li:active{
+    background: #d6d6d6;
+    border-radius: 3px;
+}
+
+#comments .cmtContent>.reply>li>span.name{
+    color: #909090;
+}
+
+
+#comments .imgBox{
+    width: 0.38rem;
+    height: 0.38rem !important;
+}
+
+#comments .cmtContent {
+    width: 2.43rem;
+    margin-left: 0.11rem;
+    margin-top: 5px;
+}
+
+#comments .imgBox img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 60%;
+}
+
+
+#comments li{
+    text-align: left;
+    word-break: break-all;
+}
+
+#comments .userName {
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+    font-weight: bold;
+}
+
+#comments .userName>i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    background: url("../../img/comment/msg.png") no-repeat;
+    background-size: 100%;
+}
+
+#comments .commentContent  {
+    color: #646464;
+    font-size: 13px;
+    word-break: break-all;
+}
+
+#comments .imgList{
+    margin-top: 0.14rem;
+}
+
+#comments .imgList img{
+    width: 0.675rem;
+    height: 0.675rem;
+    margin-right: 0.06rem;
+}
+
+#comments .creatTime{
+    display: block;
+    font-size: 12px;
+    color: #909090;
+    margin: 0.05rem 0 0.09rem 0;
+}
+
+
+#comments .weui-panel__hd button{
+    border: none;
+    outline: none;
+    color: #909090;
+}
+#comments .weui-panel__hd button:after{
+    border: none;
+}
+
+
+#comments .weui-panel__hd:after{
+    border-bottom: none!important;
+}
+
+.weui-popup .imgList{
+    width: 2.8rem;
+    height: 0.8rem;
+    padding: 0.2rem 0.2rem;
+    background: #fafafa;
+    border-top: 1px #e7e7e7 solid;
+}
+
+.weui-popup .imgList>div{
+    width: 0.8rem;
+    height: 0.8rem;
+    position: relative;
+    float: left;
+    margin: 0 0.055rem;
+    border: 1px #fafafa solid;
+}
+/*.weui-popup .imgList>div:after{*/
+    /*content: ' ';*/
+    /*position: absolute;*/
+    /*display: block;*/
+    /*width: 22px;*/
+    /*height: 22px;*/
+    /*background: url('../../img/comment/close.svg') no-repeat;*/
+    /*background-size: 100%;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*border: 1px #f0f0f0 solid;*/
+    /*border-radius: 100%;*/
+/*}*/
+
+.weui-popup .imgList>div>img{
+    width: 100%;
+    height: 100%;
+}
+
+.weui-popup label{
+    display: block;
+    background: url("../../img/comment/addImg.png") no-repeat;
+    background-size: 100%;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin: 0.2rem auto;
+}
+
+#addImg{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#publishCmt{
+    width: 100%;
+    height: 0.24rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.06rem 0;
+    box-shadow: 0 0px 16px 0 rgba(0,0,0,0.1);
+    display: flex;
+    background: #fafafa;
+}
+
+#publishCmt>.img{
+    flex: 0.2;
+}
+#publishCmt>.img>img{
+    width: 0.24rem;
+    height: 0.24rem;
+}
+
+#publishCmt>input{
+    flex: 0.6;
+    font-size: 14px;
+    color: #646464;
+    border: none;
+    outline: none;
+    background: #fafafa;
+}
+
+#publishCmt>button{
+    flex: 0.2;
+    height: 100%;
+    border-left: 1px #e0e0e0 solid;
+    border-radius: 0;
+    font-size: 15px;
+    color: #323232;
+}
+#publishCmt>button:after{
+    border: none;
+}
+
+
+
+
+
+
+
+
+/*** 详情里面的 评论 模块 ***/
+#comment {
+    border-bottom: 5px #f0f0f0 solid;
+    padding: 0.17rem 0.135rem 0;
+    background: #fafafa;
+}
+
+#comment .nullList{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 14px;
+    color: #646464;
+}
+
+#comment p{
+    text-align: left;
+}
+
+#comment .weui-panel__hd{
+    height: 0.315rem;
+    line-height: 0.315rem;
+    padding: 0;
+    border-top: 1px #f0f0f0 solid;
+    background: #fafafa;
+    text-align: center;
+}
+
+#comment .weui-panel__hd:after{
+    border: none;
+}
+
+#comment .singleCmt{
+    margin: 0 auto 0.2rem auto;
+    width: 100%;
+    min-height: 0.3rem;
+    overflow: hidden;
+}
+
+#comment .singleCmt>.imgBox{
+    margin-right: 0.075rem;
+    width: 0.25rem;
+    height: 0.25rem;
+    float: left;
+}
+
+#comment .singleCmt img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+#comment .cmtContent{
+    float: left;
+    margin-left: 0;
+    width: 2.6rem;
+}
+
+#comment .cmtContent>.userName{
+    font-size: 12px;
+    position: relative;
+}
+
+#comment .cmtContent>.userName>span:last-child{
+    position: absolute;
+    right: 0;
+    color: #909090;
+    font-weight: normal;
+}
+
+#comment .cmtContent>.commentContent{
+    font-size: 12px;
+    margin: 0.02rem 0 0 0;
+    color: #646464;
+}
