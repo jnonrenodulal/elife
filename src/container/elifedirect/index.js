@@ -21,21 +21,21 @@ export default class ELifeDirect extends Component{
 
     render(){
         return(
-            <div>
+            <div id="fenlei">
                 <ul>
-                    <li
+                    <li className="zhenpin"
                         onClick={this.linkTo.bind(this,1)}
                     >
                         <img role="presentation" src={pic1}/>
                         <span className="buttonTitle">臻品推荐</span>
                     </li>
-                    <li
+                    <li className="quanyi"
                         onClick={this.linkTo.bind(this,2)}
                     >
                         <img role="presentation" src={pic2}/>
                         <span className="buttonTitle">白金权益</span>
                     </li>
-                    <li
+                    <li className="activity"
                         onClick={this.linkTo.bind(this,3)}
                     >
                         <img role="presentation" src={pic3}/>

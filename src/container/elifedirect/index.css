@@ -1,0 +1,18 @@
+/*分类*/
+#fenlei ul{
+    overflow: hidden;
+    background: #F5F5F5;
+}
+#fenlei ul li{
+    float: left;
+    width: 30%;
+    background: #FAFAFA;
+    text-align:center;
+}
+#fenlei ul li img{
+    border-radius: 50%;
+    border:1px solid #000;
+}
+#fenlei ul li:nth-child(2){
+    margin: 0  5%;
+}
