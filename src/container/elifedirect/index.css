@@ -1,24 +1,18 @@
-/*分类板块*/
+/*分类*/
 #fenlei ul{
     overflow: hidden;
-    background: #E6E6E6;
-    padding:2% 0;
+    background: #F5F5F5;
 }
 #fenlei ul li{
     float: left;
-    width: 16%;
+    width: 30%;
     background: #FAFAFA;
     text-align:center;
-    padding:3% 8%;
 }
 #fenlei ul li img{
-    width: 100%;
     border-radius: 50%;
     border:1px solid #000;
 }
-#fenlei ul li span{
-    font-size:0.12rem;
-}
 #fenlei ul li:nth-child(2){
-    margin: 0  2%;
+    margin: 0  5%;
 }
